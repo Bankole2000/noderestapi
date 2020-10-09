@@ -1,0 +1,25 @@
+{
+  "name": "noderestapi",
+  "version": "1.0.0",
+  "description": "Node js restful api project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "rest",
+    "api"
+  ],
+  "author": "Bankole Esan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
